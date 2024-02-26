@@ -11,7 +11,7 @@ try {
     $USER = "root";
 
     //pass
-    $PASS = "";
+    $PASS = "9090";
 
 
     $conn = new PDO("mysql:host=".$HOST.";dbname=".$DBNAME."", $USER, $PASS);
